@@ -14,4 +14,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Validate host config
-        run: python3 scripts/validate_host.py "${{ inputs.repo_path }}"
+        run: python3 scripts/validate_host.py "${{ inputs.repo_path }}/surface.host.json"
