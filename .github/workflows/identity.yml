@@ -1,0 +1,18 @@
+name: Identity
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  identity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Identity check
+        run: |
+          set -euo pipefail
+          grep -q "^# VERIFRAX-SURFACE" README.md
+          grep -q "Source authority for the VERIFRAX public surface system." README.md
