@@ -2,6 +2,8 @@
 
 Source authority for the VERIFRAX public surface system.
 
+VERIFRAX-SURFACE is the Verifrax shared public-surface boundary: the repository that defines the shared surface system, host-class grammar, and projection rules for public Verifrax surfaces without becoming authored protocol source, authority issuance, governed execution, public verification, proof publication, archive/reference, or intake.
+
 ## Proof artifacts
 
 This repository is part of the VERIFRAX proof perimeter.
@@ -24,229 +26,145 @@ This repository is part of the VERIFRAX proof perimeter.
 
 ## Status
 
-- Role: source authority for form only
-- Layer: public surface projection system
-- Public host ownership: none
-- Runtime ownership: none
-- Content authority: none
-- Deployment model: projected into host-owning repositories
-- License: Apache License 2.0
+* Surface class: shared public-surface system
+* Repository class: surface grammar and projection boundary
+* Public host ownership: none directly
+* Package status: repository only
+* Current repository posture: live shared-surface authority boundary
+* License: Apache License Version 2.0
 
-## What this repository is
+## Boundary
 
-VERIFRAX-SURFACE defines the shared surface grammar used by VERIFRAX public-facing hosts.
+This repository owns the shared VERIFRAX public-surface system only.
 
-It exists to provide one controlled source for:
+It defines host classes, projection targets, integration rules, and shared public-surface discipline.
+It does not author normative source material.
+It does not issue authority.
+It does not execute governed actions.
+It does not verify published material.
+It does not publish proof.
+It does not serve as archive/reference.
+It does not operate intake.
+It does not replace adjacent sovereign boundaries.
 
-- design tokens
-- shell structure
-- component primitives
-- host-class templates
-- host profiles
-- projection and validation rules
-- anti-drift validation inputs
+## What it does
 
-Its purpose is visual and structural consistency across public surfaces while preserving strict role isolation between hosts.
+- defines the shared public-surface system for Verifrax repositories and hosts
+- preserves host-class grammar and public-surface boundary rules
+- constrains how public surfaces are projected from source repositories
+- keeps surface-system truth distinct from operational host truth
+- anchors projection and integration discipline for adjacent repositories
 
-## What this repository is not
+## What it does not do
 
-VERIFRAX-SURFACE does not:
+- not authored protocol source; that belongs to VERIFRAX
+- not authority issuance; that belongs to AUCTORISEAL
+- not governed execution; that belongs to CORPIFORM
+- not public verification; that belongs to VERIFRAX-verify
+- not proof publication; that belongs to proof
+- not archive/reference; that belongs to SIGILLARIUM
+- not intake; that belongs to apply
+- not constitutional doctrine; that belongs to SYNTAGMARIUM
+- not canonical world-state; that belongs to ORBISTIUM
+- not reconciliation or repair; that belongs to CONSONORIUM
+- not sovereign cognition; that belongs to TACHYRIUM
 
-- own any public host
-- serve production traffic
-- define protocol authority
-- define runtime behavior
-- define proof semantics
-- define verification semantics
-- define authority issuance semantics
-- define intake policy semantics
-- define archive semantics
-- replace host-repository content authority
-- act as a shared runtime dependency
+## Adjacent sovereign surfaces
 
-If a host requires this repository to be online in order to render, the integration is wrong.
+- `VERIFRAX` — authored protocol and evidence-root boundary
+- `AUCTORISEAL` — authority issuance
+- `CORPIFORM` — governed execution
+- `VERIFRAX-verify` — public verification
+- `proof` — proof publication
+- `SIGILLARIUM` — archive/reference
+- `apply` — intake
+- `VERIFRAX-WWW` — public root host
+- `VERIFRAX-DOCS` — explanatory documentation
 
-## Boundary rule
+VERIFRAX-SURFACE defines the shared public-surface system.
+It does not become the hosts it helps shape.
 
-VERIFRAX-SURFACE controls form.
+## Public surface
 
-Host-owning repositories control function and content.
+The public surface of this repository is its repository identity, README boundary, source-tree rules, host-class grammar, projection targets, and shared surface-system materials carried by this repository.
 
-This repository may standardize:
+Publication here is not authored source.
+Publication here is not authority.
+Publication here is not execution.
+Publication here is not verification.
+Publication here is not proof publication.
+Publication here is not archive/reference.
+Publication here is not intake.
 
-- layout discipline
-- typographic rhythm
-- spacing
-- tone envelope
-- visual component grammar
-- host-class structure
-- prohibited surface patterns
+## Package / host / repo truth
 
-This repository may not collapse:
+Repository truth for VERIFRAX-SURFACE lives in this repository.
 
-- commercial vs execution
-- proof vs verification
-- authority vs runtime
-- archive vs live proof
-- intake vs docs
-- status vs product surfaces
+This repository is the source authority for shared surface-system structure.
+Specific host truth still belongs to the repositories that own those hosts.
+Repository boundary and host boundary are related but not interchangeable.
+
+## Surface meaning in-system
+
+Surface meaning in-system means the stack can point to VERIFRAX-SURFACE and say that a shared public-surface rule, host-class definition, projection rule, or integration contract belongs to this boundary.
+
+Surface-system authority here defines form.
+It does not author protocol.
+It does not issue authority.
+It does not execute.
+It does not verify.
+It does not publish proof.
+
+That does not by itself mean:
+
+- a host became authored protocol source
+- a host issued authority
+- a host executed a governed action
+- a host verified truth
+- a host published proof
+- a host replaced archive/reference
+- a host replaced intake
+- a host replaced the evidence-root repository
 
 ## Host classes
 
-The public surface system recognizes exactly three host classes.
+The public surface system distinguishes host classes as bounded roles.
 
-### Root / commercial
+Examples include:
+- root
+- tool
+- reference
 
-Used for the commercial root surface.
+Host class is a structural property.
+It is not a claim of constitutional, authority, execution, proof, or verification supremacy by itself.
 
-Current target class:
-
-- `www`
-
-### Tool
-
-Used for active operator or machine-adjacent surfaces.
-
-Current target classes:
-
-- `api`
-- `verify`
-- `apply`
-- `status`
-
-### Reference
-
-Used for bounded reference and publication surfaces.
-
-Current target classes:
-
-- `proof`
-- `authority`
-- `runtime`
-- `enforcement`
-- `archive`
-- `docs`
+VERIFRAX-SURFACE controls form.
+Host-owning repositories control function and content.
 
 ## Intended projection targets
 
-VERIFRAX-SURFACE is designed to project into host-owning repositories such as:
+This repository defines how public-surface materials may project into bounded adjacent surfaces.
 
-- `VERIFRAX`
-- `proof`
-- `apply`
-- `VERIFRAX-verify`
-- `AUCTORISEAL`
-- `CORPIFORM`
-- `cicullis`
-- `SIGILLARIUM`
-- `VERIFRAX-DOCS`
-- status surface source
-
-Projection must always produce committed, inspectable output inside the owning repository.
-
-## Source tree
-
-### `tokens/`
-
-Design tokens and shared constants.
-
-### `shell/`
-
-Global shell rules shared across host classes.
-
-### `components/`
-
-Primitive surface components.
-
-### `templates/`
-
-Host-class templates.
-
-### `host-profiles/`
-
-Host-specific constraints that select and restrict allowed surface behavior.
-
-### `scripts/`
-
-Validation and projection helpers.
+Projection here must remain subordinate to the owning repository boundary of each target surface.
 
 ## Integration contract
 
-A host-owning repository may consume VERIFRAX-SURFACE only by one of the following methods:
+Any surface projected from this repository must preserve role separation.
 
-1. checked-in projected output
-2. vendored snapshot
-3. explicit copy-based projection during controlled authoring
+A limiting case shows why:
+if the shared surface system started sounding like proof publication, then proof would lose its boundary.
+if it started sounding like verification, then VERIFRAX-verify would lose its boundary.
 
-A host-owning repository must not:
+## Not this
 
-- fetch live remote assets from this repository at runtime
-- import this repository as a browser dependency
-- blur host role boundaries through template misuse
-- bypass host profile restrictions
-
-## Required invariants
-
-Every integration must preserve all of the following:
-
-- one host = one exact role
-- title, meta description, and body agree on role
-- host profile matches actual host purpose
-- forbidden neighboring-role language is absent
-- canonical adjacent-host links remain correct
-- no generic fallback shell overrides role clarity
-- no runtime semantics are implied by shared form alone
-
-## Anti-drift objective
-
-The surface system is valid only if it reduces drift without centralizing function.
-
-Drift includes:
-
-- host title mismatch
-- stale canonical links
-- wrong host-class selection
-- copied shell with altered role wording
-- proof surface sounding like verifier
-- archive sounding like live proof
-- authority surface sounding like execution
-- commercial surface sounding like protocol runtime
-
-## Related repositories
-
-- `VERIFRAX` — commercial root / flagship system surface owner
-- `AUCTORISEAL` — authority surface owner
-- `CORPIFORM` — runtime reference surface owner
-- `VERIFRAX-verify` — verification surface owner
-- `proof` — proof publication surface owner
-- `apply` — intake surface owner
-- `cicullis` — enforcement reference surface owner
-- `SIGILLARIUM` — archive surface owner
-- `VERIFRAX-DOCS` — docs surface owner
-
-## Governance posture
-
-This repository must remain mechanically strict.
-
-Changes here are high leverage because they can affect multiple public surfaces at once.
-
-Therefore every change must preserve:
-
-- host-role isolation
-- deterministic projection behavior
-- stable token semantics
-- stable template semantics
-- explicit host-profile constraints
-
-## Minimal acceptance rule
-
-VERIFRAX-SURFACE is acceptable only when:
-
-- it is useful as a source system
-- it is not required as live infrastructure
-- it cannot silently cause boundary collapse
-- every projected host remains classifiable in under three seconds
+VERIFRAX-SURFACE is not authored protocol source.
+VERIFRAX-SURFACE is not authority issuance.
+VERIFRAX-SURFACE is not governed execution.
+VERIFRAX-SURFACE is not public verification.
+VERIFRAX-SURFACE is not proof publication.
+VERIFRAX-SURFACE is not archive/reference.
+VERIFRAX-SURFACE is not intake.
 
 ## License
 
-Apache License 2.0
+Apache License Version 2.0
