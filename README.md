@@ -138,8 +138,8 @@ Examples include:
 Host class is a structural property.
 It is not a claim of constitutional, authority, execution, proof, or verification supremacy by itself.
 
-The surface system also defines the form-control rule for shared public-surface composition.
-The surface system also defines the function-control rule for shared public-surface behavior.
+VERIFRAX-SURFACE controls form.
+Host-owning repositories control function and content.
 
 ## Intended projection targets
 
