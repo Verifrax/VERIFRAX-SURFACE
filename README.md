@@ -1,6 +1,6 @@
 # VERIFRAX-SURFACE
 
-Source authority for the VERIFRAX public surface system.
+Source form boundary for the VERIFRAX public surface system.
 
 VERIFRAX-SURFACE is the Verifrax shared public-surface boundary: the repository that defines the shared surface system, host-class grammar, and projection rules for public Verifrax surfaces without becoming authored protocol source, authority issuance, governed execution, public verification, proof publication, archive/reference, or intake.
 
@@ -30,7 +30,7 @@ This repository is part of the VERIFRAX governed surface-system perimeter.
 * Repository class: surface grammar and projection boundary
 * Public host ownership: none directly
 * Package status: repository only
-* Current repository posture: live shared-surface authority boundary
+* Current repository posture: live shared-surface form and projection boundary
 * License: Apache License Version 2.0
 
 ## Boundary
@@ -133,7 +133,7 @@ Publication here is not intake.
 
 Repository truth for VERIFRAX-SURFACE lives in this repository.
 
-This repository is the source authority for shared surface-system structure.
+This repository is the source boundary for shared surface-system form and projection structure.
 Specific host truth still belongs to the repositories that own those hosts.
 Repository boundary and host boundary are related but not interchangeable.
 
@@ -141,7 +141,7 @@ Repository boundary and host boundary are related but not interchangeable.
 
 Surface meaning in-system means the stack can point to VERIFRAX-SURFACE and say that a shared public-surface rule, host-class definition, projection rule, or integration contract belongs to this boundary.
 
-Surface-system authority here defines form.
+Surface-system form here defines projection structure.
 It does not author protocol.
 It does not issue authority.
 It does not execute.

@@ -15,4 +15,4 @@ jobs:
         run: |
           set -euo pipefail
           grep -q "^# VERIFRAX-SURFACE" README.md
-          grep -q "Source authority for the VERIFRAX public surface system." README.md
+          grep -q "Source form boundary for the VERIFRAX public surface system." README.md

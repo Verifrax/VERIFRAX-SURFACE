@@ -4,11 +4,11 @@
 
 These rules define how host-owning repositories consume VERIFRAX-SURFACE.
 
-## Source authority
+## Source form boundary
 
-VERIFRAX-SURFACE is source authority for form only.
+VERIFRAX-SURFACE is the source boundary for form only.
 
-Host-owning repositories remain source authority for:
+Host-owning repositories remain source-of-truth boundaries for:
 - function
 - content
 - deployment
