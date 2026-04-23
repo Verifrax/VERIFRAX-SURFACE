@@ -31,7 +31,7 @@ This repository is part of the VERIFRAX governed surface-system perimeter.
 * Public host ownership: none directly
 * Package status: repository only
 * Current repository posture: live shared-surface form and projection boundary
-* License: Apache License Version 2.0
+* License: Mozilla Public License 2.0
 
 ## Boundary
 
@@ -200,4 +200,5 @@ VERIFRAX-SURFACE is not intake.
 
 ## License
 
-Apache License Version 2.0
+This repository is licensed under the Mozilla Public License 2.0. See `LICENSE`.
+
