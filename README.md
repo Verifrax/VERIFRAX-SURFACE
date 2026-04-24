@@ -1,5 +1,7 @@
 # VERIFRAX-SURFACE
 
+* License: GNU General Public License v3.0
+
 Source form boundary for the VERIFRAX public surface system.
 
 VERIFRAX-SURFACE is the Verifrax shared public-surface boundary: the repository that defines the shared surface system, host-class grammar, and projection rules for public Verifrax surfaces without becoming authored protocol source, authority issuance, governed execution, public verification, proof publication, archive/reference, or intake.
@@ -200,5 +202,4 @@ VERIFRAX-SURFACE is not intake.
 
 ## License
 
-This repository is licensed under the Mozilla Public License 2.0. See `LICENSE`.
-
+This repository is licensed under the GNU General Public License v3.0. See `LICENSE`.
